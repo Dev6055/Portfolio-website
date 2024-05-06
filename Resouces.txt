@@ -1,0 +1,13 @@
+1) Dev portfolio website 
+https://youtu.be/NPkPtu61yV4?si=qiFulQaqbIb_BE39
+
+
+Portfolio website - It is a fully responsive animated website made using Html, CSS and Javascript.
+It uses diffrent JS libraries for diffrent functionalities like Swiper, that creates modern touch sliders for testimonial codee.
+
+It uses Formspree a form backend, API, and email service for HTML & JavaScript forms. Which is used to get the  data submitted by users to our Gmail.
+
+It ScrollReveal is a JavaScript library for easily animating elements,etc.
+
+
+

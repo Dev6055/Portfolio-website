@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- swiper website for testimonial code  linking the site link with our code-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Font awesome linking used " " quotes in testimonial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <img src="images/Dev_logo2.png" alt="Logo image" class="logo">
+
+    <nav class="navbar">
+        <ul class="navbar-lists">
+            <li> <a href="index.html" class="navbar-link home-link"> Home </a> </li>
+            <li> <a href="about.html" class="navbar-link about-link"> About </a> </li>
+            <!-- <li> <a href="#" class="navbar-link service-link"> Service </a> </li> -->
+            <li> <a href="portfolio.html" class="navbar-link portfolio-link"> Portfolio </a> </li>
+            <li> <a href="contact.html" class="navbar-link contact-link"> Contact </a> </li>
+        </ul>
+
+    </nav>
+  
+    <!-- Mobile screen small then close and navbar btn -->
+    <div class="mobile-navbar-btn">
+      <ion-icon
+        name="menu-outline"
+        class="mobile-nav-icon"
+      ></ion-icon>
+
+      <ion-icon
+        name="close-outline"
+        class="mobile-nav-icon"
+      ></ion-icon>
+    </div>
+  </header>
+
+</header>
+
+
+    <!-- ======================================== 
+         freelancing Section   
+    ========================================  -->
+
+    <section class="section section-freelancer ">
+      <div class="overlay"></div>
+      <div class="container">
+      <h2 >I am <span> Available </span> for freelancing</h2>
+      <p>Click on HIRE ME. Sit back and enjoy your works getting completed smoothly and efficienty </p>
+      <a href="/contact.html" class="btn"> HIRE ME </a>
+      </div>
+    </section>
+
+   <!-- ======================================== 
+        Portfolio works Section Start  
+    ========================================  -->
+
+    <section class="section-portfolio section " id="portfolio-section">
+      <div class="container">
+          <h2 class="common-heading">Latest works</h2>
+          <p>
+              Here is the glimpse to some of the projects i have hosted till now.
+              More projects going to be added Soon.
+          </p>
+      </div>
+
+      <div class="p-btns">
+          <button class="btn p-btn " data-btn-num="1">ALL</button>
+          <button class="btn p-btn " data-btn-num="2">Hosted </button>
+          <button class="btn p-btn " data-btn-num="3">in progress</button>
+      </div>
+
+      <div class="container grid grid-three-column portfolio-images">
+
+       <!-- Project 1 -->
+          <div class="img-overlay p-btn--1 p-btn--2 ">
+            <img class="fit_the_image" src="images/projects_ss/4.png" loading="lazy" alt="portfolio images " />
+            <div class="overlay">
+                <a href="PENDING" target="_blank" class="common-heading">
+                    <span  class="bada_don"> Gaming Studio </span>
+                    <span class="chota_don"> <br> It is fully responsive website which contains multiple games and projects made using different concepts of JavaScript. </span>
+
+                </a>
+        
+            </div>
+
+            
+        </div>
+
+         
+
+           <!-- Project 2  -->
+           <div class="img-overlay p-btn--1 p-btn--2">
+            <img class="fit_the_image" src="images/projects_ss/Imdb_clone.png" loading="lazy" alt="portfolio images " />
+            <div class="overlay">
+                <a href="PENDING" target="_blank" class="common-heading">
+                    <span  class="bada_don"> IMDB Clone </span>
+                    <span class="chota_don"> <br> It is a fully responsive IMDB movie rating website made using React & uses different functionalities like React carousel, React-router-dom, etc. </span>
+                </a>
+            </div>
+        </div>
+
+    
+
+        <!-- Project 3 -->
+        <div class=" 
+         img-overlay p-btn--1 p-btn--2">
+            <img class="fit_the_image" src="images/projects_ss/Character_counter.png" loading="lazy" alt="portfolio images " />
+            <div class="overlay">
+                <a href="https://dev6055.github.io/Character-counter-JS/" target="_blank" class="common-heading">
+                    <span  class="bada_don"> Character Counter </span>
+                    <span class="chota_don"> <br> The project uses the concept of DOM handling and Event listeners in JavaScript.</span>
+                </a>
+            </div>
+        </div>
+
+         <!-- Project 4  -->
+        <div class=" img-overlay p-btn--1 p-btn--2 ">
+            <img class="fit_the_image" src="images/projects_ss/Bubble_game.png" loading="lazy" alt="portfolio images " />
+            <div class="overlay">
+                <a href="https://dev6055.github.io/Bubble-Game-using-Javascript/" target="_blank" class="common-heading">
+                    <span  class="bada_don"> Bubble Game </span>
+                    <span class="chota_don"> <br> The project uses concept of Event Bubbling in DOM in JavaScript.</span>
+                </a>
+            </div>
+        </div>
+
+         <!-- Project 5  -->
+        <div class="img-overlay p-btn--1 p-btn--2">
+            <img class="fit_the_image" src="images/projects_ss/Note_app.png" loading="lazy" alt="portfolio images " />
+            <div class="overlay">
+                <a href="https://dev6055.github.io/Note-App-JS/" target="_blank" class="common-heading">
+                    <span  class="bada_don"> Note App  </span>
+                    <span class="chota_don"> <br>The project uses the concept of Local storage in Javascript.</span>
+                </a>
+            </div>
+        </div>
+
+         <!-- Project 6 -->
+        <div class="img-overlay p-btn--1 p-btn--2">
+            <img class="fit_the_image" src="images/projects_ss/portfolio.png" loading="lazy" alt="portfolio images " />
+            <div class="overlay">
+                <a href="PENDING" target="_blank" class="common-heading">
+                  <span  class="bada_don"> Portfolio Website  </span>
+                  <span class="chota_don"> <br>It is a fully responsive websiite having little animations made using HTML, CSS & JS & Uses API'S like Formspree. </span>
+                </a>
+            </div>
+        </div>
+
+         <!-- Project 7  -->
+         <div class="img-overlay p-btn--1 p-btn--2">
+          <img class="fit_the_image" src="images/projects_ss/Quiz_game.png" loading="lazy" alt="portfolio images " />
+          <div class="overlay">
+              <a href="https://dev6055.github.io/Quiz-Game-JS/" target="_blank" class="common-heading">
+                  <span  class="bada_don"> Quiz Game </span>
+                  <span class="chota_don"> <br> This is a Quiz gaming website which Uses concepts of DOM handling & Event listners.</span>
+              </a>
+          </div>
+      </div>
+
+       <!-- Project 8  -->
+       <div class="img-overlay p-btn--1 p-btn--3">
+        <img class="fit_the_image" src="images/projects_ss/22.png" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+            <a href="https://dev6055.github.io/Meme-kyu-nahi-hori-padhai/" target="_blank" class="common-heading">
+                <span  class="bada_don"> Myntra Clone </span>
+                <span class="chota_don"> <br> <pre>   UNDER CONSTRUCTION </pre></span>
+            </a>
+        </div>
+    </div>
+
+     <!-- Project 9  -->
+     <div class="img-overlay p-btn--1 p-btn--3">
+      <img class="fit_the_image" src="images/projects_ss/Inprogress.jpg" loading="lazy" alt="portfolio images " />
+      <div class="overlay">
+          <a href="https://dev6055.github.io/Meme-kyu-nahi-hori-padhai/" target="_blank" class="common-heading">
+              <span  class="bada_don">  IN PROGRESS <br> Do Not Click </span>
+              <!-- <span class="chota_don"> <br> It Uses concepts of DOM handling & Event listners.</span> -->
+          </a>
+      </div>
+  </div>
+        
+          <!-- @@@@@@@@ -->
+      </div>
+  </section>
+
+
+
+
+
+
+
+    
+     <!-- ======================================== 
+          Our footer Section   
+    ========================================  -->
+
+    <footer class="section section-footer " >
+      <div class="container grid" >
+
+        <div class="f-address"> 
+          <!-- <span>Have a Questions?</span> -->
+          <address>
+            <span>Have a Questions?</span>
+            <div>
+              <p>  <span><ion-icon name="location-outline"></ion-icon></span> Noida, India </p>
+            </div>
+
+            <div>
+              <p>  <span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+919717030221"> +91 9717030221 </a></p>
+            </div>
+
+            <div>
+              <p>  <span><ion-icon name="mail-outline"></ion-icon></span> <a href="mailto:devmalhotra20000@gmail.com">devmalhotra20000@gmail.com </a> </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="f-social-icons">
+          <a href="https://www.instagram.com/devmalhotra_09" target="_blank">
+            <ion-icon class="icons" name="logo-instagram"></ion-icon>
+          </a>
+
+            <a href="https://Wa.me/+919717030221" target="_blank">
+           <ion-icon class="icons" name="logo-whatsapp"></ion-icon>
+          </a>
+
+            <a href="https://www.linkedin.com/in/devmalhotra09/" target="_blank">
+           <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+
+        <div class="f-credits">
+          <p>Copyright ©2024 All rights reserved | This website is made with ❤ by Dev Malhotra</p>
+        </div>
+      </div>
+
+    </footer>
+    
+
+          <!-- ======================================== 
+          Our JavaScript Section   
+    ========================================  -->
+    
+    <!-- getting icons like insta fb and all other from ion icons linking the site with code -->
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+
+
+</body>
+
+</html>
