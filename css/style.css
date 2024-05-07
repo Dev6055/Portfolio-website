@@ -1139,6 +1139,22 @@ transform: translateX(0%);
 
 }
 
+  .bio-progress-bar span{
+  left: 87%;
+}
+.bio-progress-2 span{
+  left: 93%;
+}
+.bio-progress-3 span{
+  left: 75%;
+}
+.bio-progress-4 span{
+  left: 77%;
+}
+.bio-progress-5 span{
+  left: 83%;
+}
+
 }
 
 @media (max-width: 1050px){
@@ -1214,6 +1230,25 @@ transform: translateX(0%);
 }
 }
 
+@media (max-width: 784px){
+
+.bio-progress-bar span{
+  left: 88%;
+}
+.bio-progress-2 span{
+  left: 94%;
+}
+.bio-progress-3 span{
+  left: 76%;
+}
+.bio-progress-4 span{
+  left: 78%;
+}
+.bio-progress-5 span{
+  left: 84%;
+}
+}
+
 
 @media (max-width: 600px){
 
@@ -1280,6 +1315,23 @@ transform: translateX(0%);
   background-size: 220%;
   
 }
+
+  
+.bio-progress-bar span{
+  left: 87%;
+}
+.bio-progress-2 span{
+  left: 93%;
+}
+.bio-progress-3 span{
+  left: 75%;
+}
+.bio-progress-4 span{
+  left: 77%;
+}
+.bio-progress-5 span{
+  left: 83%;
+}
 }
 
 @media (max-width: 425px){
@@ -1324,6 +1376,22 @@ transform: translateX(0%);
   background-size: 300%;
   
 }
+  .bio-progress-bar span{
+  left: 86%;
+}
+.bio-progress-2 span{
+  left: 92%;
+}
+.bio-progress-3 span{
+  left: 74%;
+}
+.bio-progress-4 span{
+  left: 76%;
+}
+.bio-progress-5 span{
+  left: 82%;
+}
+
 }
 
 
@@ -1349,5 +1417,22 @@ transform: translateX(0%);
 .grid {
 
   gap : 0.8rem;
+}
+
+  
+.bio-progress-bar span{
+  left: 85%;
+}
+.bio-progress-2 span{
+  left: 91%;
+}
+.bio-progress-3 span{
+  left: 73%;
+}
+.bio-progress-4 span{
+  left: 75%;
+}
+.bio-progress-5 span{
+  left: 81%;
 }
 }
